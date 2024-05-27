@@ -5,6 +5,7 @@ module.exports = {
   entry: './src/index.js',
   plugins: [
     new HtmlWebpackPlugin({
+      title: 'Todo Proejct',
       template: './src/index.html',
     }),
   ],
