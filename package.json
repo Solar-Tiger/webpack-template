@@ -1,7 +1,7 @@
 {
 	"name": "webpack-template",
 	"version": "1.0.0",
-	"description": "A base template that future projects will utilise for easier project setup",
+	"description": "A webpack template that future projects will utilise for easier project setup",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
