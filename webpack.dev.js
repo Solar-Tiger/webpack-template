@@ -10,5 +10,5 @@ module.exports = merge(common, {
   devServer: {
     static: './dist',
   },
-  plugins: [new BundleAnalyzerPlugin()],
+  // plugins: [new BundleAnalyzerPlugin()],
 });
