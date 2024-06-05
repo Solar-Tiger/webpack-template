@@ -1,18 +1,13 @@
 # The pages folder
 
-A place where all root level pages a user can go to exist
+A place where all root level pages a user can go to exist. These are separate based on what components need to exist. The **home** folder for instance would only contain things and coponents related to **home**
 
 ## Some examples
 
-### 1. Ungrouped
+### 1. Home
 
-Here we just have one thing unrelated to any other content. If you're not logged in, all you'll get is the login screen.
+Under the **home** folder we just have things related to it. We wouldn't need to have components that are for editing **user settings** for exmaple.
 
-- **LoginScreen.js** for if a user is not logged in. Has no grouping
+### 2. Login
 
-### 2. Grouped ((logged-in) folder example)
-
-Here we have 2 things that can appear to the user IF they're logged in: a **home screen** and a **user dashboard screen**.
-
-- **HomeScreen.js** to run a development build
-- **DashboardScreen.js** to run a production build
+Under the **login** folder we just have things related to it. We wouldn't need to have components that are for editing **user settings** or give access to the **home** page for exmaple as the user isn't logged in yet.
