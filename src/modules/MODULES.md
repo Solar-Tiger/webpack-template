@@ -1,13 +1,9 @@
 # The modules folder
 
-A place where all root level pages a user can go to exist. These are separate based on what components need to exist. The **home** folder for instance would only contain things and coponents related to **home**
+Modules are logical and reuseable parts of code to execute such as NPM libraries dedicated to doing one thing and doing it well. For example, combining strings or handling form logic or even generating a TODO in a TODO app.
 
-## Some examples
+## Example
 
-### 1. Home
+### 1. createTodo.js
 
-Under the **home** folder we just have things related to it. We wouldn't need to have components that are for editing **user settings** for exmaple.
-
-### 2. Login
-
-Under the **login** folder we just have things related to it. We wouldn't need to have components that are for editing **user settings** or give access to the **home** page for exmaple as the user isn't logged in yet.
+A very simple example of a **module**, with the idea to create a text input that would allow you to create dynamic notes that get appended to the document body. It's very basic to allow us a visual representation of what a module COULD look like.

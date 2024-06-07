@@ -1,5 +1,6 @@
 import './style.css';
 import editSVG from './assets/images/icons/edit_note.svg';
+import createTodo from './modules/createTodo.js';
 
 console.log('Hello');
 
@@ -12,3 +13,5 @@ img.src = editSVG;
 div.appendChild(img);
 
 document.body.appendChild(div);
+
+createTodo();
