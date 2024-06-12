@@ -1,18 +1,10 @@
 import './style.css';
-import { addTodoToArray } from './modules/todo_projects/addTodoProjectsToArray.js';
-// import editSVG from './assets/images/icons/edit_note.svg';
+import { addTodoToArray as createTodo } from './modules/todo_projects/addProjectToArray.js';
+import { addTodoTaskToArray as createTask } from './modules/todo_task/addTaskToProject.js';
 
-// console.log('Hello');
-
-// const div = document.createElement('div');
-
-// const img = new Image();
-
-// img.src = editSVG;
-
-// div.appendChild(img);
-
-// document.body.appendChild(div);
+const todoProjects = [];
 
 // EXAMPLE
-addTodoToArray('Food to make');
+createTodo('Food to make', todoProjects);
+
+createTodo('Games to play', todoProjects);
