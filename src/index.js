@@ -1,14 +1,18 @@
 import './style.css';
-import editSVG from './assets/images/icons/edit_note.svg';
+import { addTodoToArray } from './modules/todo_projects/addTodoProjectsToArray.js';
+// import editSVG from './assets/images/icons/edit_note.svg';
 
-console.log('Hello');
+// console.log('Hello');
 
-const div = document.createElement('div');
+// const div = document.createElement('div');
 
-const img = new Image();
+// const img = new Image();
 
-img.src = editSVG;
+// img.src = editSVG;
 
-div.appendChild(img);
+// div.appendChild(img);
 
-document.body.appendChild(div);
+// document.body.appendChild(div);
+
+// EXAMPLE
+addTodoToArray('Food to make');
