@@ -1,4 +1,4 @@
-import { newElement } from '../../utils/createElement';
+import { newElement } from '../utils/createElement';
 
 export function newBtn(nameOfButton = '') {
   const btn = newElement('button');

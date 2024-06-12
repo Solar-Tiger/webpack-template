@@ -1,4 +1,4 @@
-import { newElement } from '../../utils/createElement';
+import { newElement } from '../utils/createElement';
 
 export function newForm(method, action = '') {
   const form = newElement('form');
