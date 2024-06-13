@@ -1,9 +1,9 @@
 import { createTodoProject } from './createTodoProject';
 
 // Add TODO projects to Array
-export function addTodoToArray(projectTitle, todoProjects) {
+export function addTodoToArray(todoProjects, projectTitle) {
   const newTodoProject = createTodoProject({
-    projectTitle,
+    title: projectTitle,
   });
 
   // For debugging purposes
