@@ -1,4 +1,4 @@
-import pate from 'path';
+import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 export default {
@@ -12,7 +12,7 @@ export default {
     ],
     output: {
         filename: '[name].[contenthash].js',
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve('dist'),
         clean: true
     },
     module: {
