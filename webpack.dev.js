@@ -1,12 +1,13 @@
-/* eslint-disable node/no-unpublished-require */
-/* eslint-disable import/no-extraneous-dependencies */
+import { merge } from 'webpack-merge';
+import common from './webpack.common.js';
+
 const { merge } = require('webpack-merge');
 const common = require('./webpack.common');
 
-module.exports = merge(common, {
-  mode: 'development',
-  devtool: 'inline-source-map',
-  devServer: {
-    static: './dist',
-  },
+export default merge(common, {
+    mode: 'development',
+    devtool: 'inline-source-map',
+    devServer: {
+        static: './dist'
+    }
 });

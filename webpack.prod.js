@@ -1,8 +1,6 @@
-/* eslint-disable node/no-unpublished-require */
-/* eslint-disable import/no-extraneous-dependencies */
-const { merge } = require('webpack-merge');
-const common = require('./webpack.common');
+import { merge } from 'webpack-merge';
+import common from './webpack.common.js';
 
-module.exports = merge(common, {
-  mode: 'production',
+export default merge(common, {
+    mode: 'production'
 });
