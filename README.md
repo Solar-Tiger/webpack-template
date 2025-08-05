@@ -8,6 +8,6 @@ Just run "npm install" and you're good to go
 
 ## This contains 3 different scripts
 
-- **"npm start"** to open a live server and preview live changes
-- **"npm run devbuild"** to run a development build
-- **"npm run build"** to run a production build
+-   **"npm run watch"** to open a live server and preview live changes
+-   **"npm run devbuild"** to run a development build
+-   **"npm run build"** to run a production build
