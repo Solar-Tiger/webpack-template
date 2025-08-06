@@ -20,12 +20,15 @@
 
 body {
     /* 4. Add accessible line-height */
-    line-height: 1;
-    /* 5. Improve text rendering */
+    line-height: 1.5;
+    /* 5. Improve text rendering and scrolling behavior */
     -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+    /* 6. Add default, better looking font family */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* 6. Improve media defaults */
+/* 7. Improve media defaults and differentiate surrounding text from broken/failed loaded images */
 img,
 picture,
 video,
@@ -33,9 +36,10 @@ canvas,
 svg {
     display: block;
     max-width: 100%;
+    font-style: italic;
 }
 
-/* 7. Inherit fonts for form controls */
+/* 8. Inherit fonts for form controls */
 input,
 button,
 textarea,
@@ -43,7 +47,7 @@ select {
     font: inherit;
 }
 
-/* 8. Avoid text overflows */
+/* 9. Avoid text overflows */
 p,
 h1,
 h2,
@@ -54,7 +58,7 @@ h6 {
     overflow-wrap: break-word;
 }
 
-/* 9. Improve line wrapping */
+/* 10. Improve line wrapping */
 p {
     text-wrap: pretty;
 }
@@ -68,9 +72,16 @@ h6 {
 }
 
 /*
-  10. Create a root stacking context
+  11. Create a root stacking context
 */
 #root,
 #__next {
     isolation: isolate;
+}
+
+/* 12. Collapse all tables and remove border spacing */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }
